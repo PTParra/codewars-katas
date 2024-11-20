@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <title>¿Llegas a la gasolinera?</title>
+</head>
+<body>
+    <h1>¿Llegas a la gasolinera?</h1>
+    <p>Fuiste de acampada, pero no te fijaste en cuanta gasolina te queda, haces 25 kilometros por litro, ¿llegas a la gasolinera más proxima?</p>
+    <form id="formulario">
+        <input type="number" id="gasolina" name="gasolina" required>
+        <label for="gasolina">Gasolina</label>
+        <br>
+        <input type="number" id="gpl" name="gpl" required>
+        <label for="gpl">Gasolina Por Litro</label>
+        <br>
+        <input type="number" id="gasolinera" name="gasolinera" required>
+        <label for="gasolinera">Gasolinera más próxima</label>
+        <br>
+        <input type="submit" value="Comprobar">
+    </form>
+    <p id="resultado"></p>
+</body>
+</html>
